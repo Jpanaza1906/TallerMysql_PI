@@ -29,6 +29,14 @@ docker ps -a
 docker exec -it "nombre_contenedor" mysql -p 
 ```
 
+* **Prueba de ejecución de MySQL**
+
+```sql
+show databases;
+create database nombre-BD;
+use nombre-BD;
+```
+
 
 ## ✒️ Autor
 
